@@ -1,4 +1,5 @@
 function Insertion_sort(){
+    c_delay=0;
     
     for(let i=0;i<array_size.value;i++)
     {

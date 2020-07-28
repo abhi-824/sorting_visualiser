@@ -1,4 +1,7 @@
+    
 function Selection_sort(){
+    c_delay=0;
+
     for(let i=0;i<array_size.value-1;i++)
     {
         let minim=i;

@@ -32,7 +32,9 @@ function generate_array(){
 }
 document.querySelector('.bubble').addEventListener("click",runBubble)
 function runBubble(){
+    
     Bubble();
+
 }
 document.querySelector('.selection').addEventListener("click",runBubble2)
 function runBubble2(){
@@ -52,6 +54,7 @@ function runBubble5(){
 }
 document.querySelector('.quick').addEventListener("click",runBubble6)
 function runBubble6(){
+    c_delay=0;
     Quick_sort(0,array_size.value-1);
 }
 var c_delay=0;
